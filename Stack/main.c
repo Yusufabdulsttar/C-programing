@@ -7,7 +7,7 @@ int main()
     ret = init_stack(&my_stack);
     if (ret == R_nok)
         {
-
+		printf("Error in initialize stack\n");
         }
         else
         {
